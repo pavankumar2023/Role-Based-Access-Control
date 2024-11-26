@@ -13,5 +13,4 @@ This is a React-based UI for managing Role-Based Access Control (RBAC) in applic
 ## Getting Started
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/pavankumar2023/RBAC-UI.git

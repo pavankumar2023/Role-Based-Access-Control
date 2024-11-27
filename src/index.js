@@ -1,14 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';  // Ensure you're using React 18+ syntax
-import './index.css';
-import App from './App';
-import { AuthProvider } from './context/AuthContext';  // Ensure AuthProvider is being used
+import ReactDOM from 'react-dom/client'; // React 18+ syntax
+import './index.css'; // Optional for global styles
+import App from './App'; // Main App component
 
-const root = ReactDOM.createRoot(document.getElementById('root')); // Ensure 'root' div exists in your public/index.html
+const root = ReactDOM.createRoot(document.getElementById('root')); // Ensure 'root' div exists
 root.render(
   <React.StrictMode>
-    <AuthProvider>
-      <App />
-    </AuthProvider>
+    <App />
   </React.StrictMode>
 );

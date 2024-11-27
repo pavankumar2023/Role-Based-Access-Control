@@ -2,7 +2,7 @@
   "name": "rbac-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/pavankumar2023/RBAC-UI.git",
+  "homepage": "https://github.com/pavankumar2023/Role-Based-Access-Control.git",
   "dependencies": {
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",

@@ -14,9 +14,9 @@ import Profile from './components/Profile';  // Import Profile Component
 const App = () => {
   return (
     <AuthProvider>
-      <ThemeProvider> {/* Wrap your application with ThemeProvider */}
-
-        <Router>
+      <ThemeProvider> 
+        {/* Set the basename to the repository name for GitHub Pages deployment */}
+        <Router basename="/Role-Based-Access-Control">
           <Header />
           <Routes>
             {/* Public Routes */}
@@ -35,7 +35,6 @@ const App = () => {
             <Route path="/" element={<Navigate to="/login" />} />
           </Routes>
         </Router>
-
       </ThemeProvider>
     </AuthProvider>
   );
